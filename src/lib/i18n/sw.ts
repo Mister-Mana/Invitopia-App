@@ -1,4 +1,3 @@
-
 import { Resource } from './index';
 import { navbarSw } from './sw/navbar';
 import { settingsSw } from './sw/settings';
