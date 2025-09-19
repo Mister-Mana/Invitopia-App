@@ -1,3 +1,4 @@
+
 import { Resource } from './index';
 import { navbarSw } from './sw/navbar';
 import { settingsSw } from './sw/settings';
@@ -186,12 +187,6 @@ export default {
     manageAdmins: "Simamia wasimamizi",
     systemOverview: "Muhtasari wa mfumo",
   },
-  navbar: {
-    language: "Lugha",
-    theme: "Muonekano",
-    login: "Ingia",
-    logout: "Toka",
-    dashboard: "Dashibodi"
-  },
+  navbar: navbarSw,
   settings: settingsSw
 };

@@ -1,3 +1,4 @@
+
 import { Resource } from './index';
 import { navbarLn } from './ln/navbar';
 import { settingsLn } from './ln/settings';
@@ -185,11 +186,6 @@ export default {
     title: "Super Admin",
     manageAdmins: "Boyangeli ya ba admins",
     systemOverview: "Botali ya système",
-  },
-  errorMessage: {
-    notFound: "Emonani te",
-    unauthorized: "Ozali na ndingisa te",
-    serverError: "Likambo esalemaki malamu te na serveur"
   },
   navbar: navbarLn,
   settings: settingsLn
