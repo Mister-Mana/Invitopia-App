@@ -1,0 +1,47 @@
+{
+    "short_name": "Invitopia",
+    "name": "Invitopia - Plateforme de création et gestion d'invitations et billets d'événements",
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "logo192.svg",
+        "type": "image/svg+xml",
+        "sizes": "192x192",
+        "purpose": "any"
+      },
+      {
+        "src": "logo512.svg",
+        "type": "image/svg+xml",
+        "sizes": "512x512",
+        "purpose": "any"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#6f42c1",
+    "background_color": "#ffffff",
+    "orientation": "portrait",
+    "description": "La plateforme de gestion d'événements complète, conçue spécifiquement pour le marché africain.",
+    "dir": "ltr",
+    "lang": "fr-FR",
+    "prefer_related_applications": false,
+    "categories": ["events", "productivity", "business"],
+    "screenshots": [
+      {
+        "src": "screenshots/dashboard.svg",
+        "sizes": "1280x720",
+        "type": "image/svg+xml"
+      },
+      {
+        "src": "screenshots/invitation-editor.svg",
+        "sizes": "1280x720",
+        "type": "image/svg+xml"
+      }
+    ]
+  }
+  
+  

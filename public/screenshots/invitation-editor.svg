@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#f8f9fa"/>
+  <rect x="240" y="80" width="800" height="560" fill="#ffffff" stroke="#dee2e6"/>
+  <text x="640" y="360" fill="#6f42c1" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">Invitation Editor Preview</text>
+</svg>
