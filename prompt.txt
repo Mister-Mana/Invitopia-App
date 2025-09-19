@@ -1,5 +1,0 @@
-Toutes les rubriques dans le Footer qui n'ont pas de text (ils ont une forme pareille : home.footer.product, etc...) 
-et même pour les pages suivantes ajoutes les informations manquantes dans les fichiers des langues selon les spécifications de l'application. 
-Génère également les pages help, contact, documentation, status, terms, privacy, cookies, compliance, testimonials et updates.
-ajoute aussi le home.footer.description dans toutes les langues, 
-ajoute également une liste déroulante pour choisir langue d'affichage de notre application et un système de switch bouton pour appliquer le changement de thème de invitopia.
