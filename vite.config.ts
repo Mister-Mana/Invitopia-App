@@ -17,6 +17,7 @@ export default defineConfig(({ mode }) => ({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
+      'fabric': 'fabric/dist/fabric.js',
     },
   },
   // Ensure environment variables are properly loaded
