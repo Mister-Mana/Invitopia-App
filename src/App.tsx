@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import PublicEventView from './pages/PublicEventView';
 import PublicEventRSVP from './pages/PublicEventRSVP';
 import { useAuth } from './contexts/auth';
@@ -75,6 +76,7 @@ const ProtectedRoute: React.FC<ProtectedRouteProps> = ({ children }) => {
 function App() {
   return (
     <Router>
+      <SpeedInsights />
       <Routes>
         {/* Public routes */}
         <Route path="/" element={<Index />} />
