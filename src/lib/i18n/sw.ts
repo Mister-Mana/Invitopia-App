@@ -186,6 +186,12 @@ export default {
     manageAdmins: "Simamia wasimamizi",
     systemOverview: "Muhtasari wa mfumo",
   },
-  navbar: navbarSw,
+  navbar: {
+    language: "Lugha",
+    theme: "Muonekano",
+    login: "Ingia",
+    logout: "Toka",
+    dashboard: "Dashibodi"
+  },
   settings: settingsSw
 };

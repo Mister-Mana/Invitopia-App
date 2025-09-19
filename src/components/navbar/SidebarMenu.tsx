@@ -20,7 +20,8 @@ import {
   HelpCircle,
   Mail,
   Info,
-  UsersIcon 
+  UsersIcon,
+  Shield
 } from 'lucide-react';
 
 interface SidebarMenuProps {

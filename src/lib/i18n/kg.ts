@@ -186,6 +186,12 @@ export default {
     manageAdmins: "Boyangeli ya bakonzi",
     systemOverview: "Monoko ya système",
   },
-  navbar: navbarKg,
+  navbar: {
+    language: "Kindombe",
+    theme: "Manzonana",
+    login: "Kota",
+    logout: "Kobima",
+    dashboard: "Mesa ya nsonga"
+  },
   settings: settingsKg
 };

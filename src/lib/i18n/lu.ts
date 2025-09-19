@@ -1,4 +1,3 @@
-
 import { Resource } from './index';
 import { navbarLu } from './lu/navbar';
 import { settingsLu } from './lu/settings';
@@ -187,6 +186,12 @@ export default {
     manageAdmins: "Longolosa bakalamba",
     systemOverview: "Mamoneka a système",
   },
-  navbar: navbarLu,
+  navbar: {
+    language: "Lulemi",
+    theme: "Kamoneka",
+    login: "Kena mukati",
+    logout: "Fuma",
+    dashboard: "Mesa ya nsonga"
+  },
   settings: settingsLu
 };
