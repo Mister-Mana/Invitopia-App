@@ -2,7 +2,11 @@ import { Resource } from './index';
 import { navbarKg } from './kg/navbar';
 import { settingsKg } from './kg/settings';
 
+<<<<<<< HEAD
 const kg = {
+=======
+export default {
+>>>>>>> c00c8f8f156f339d31b6df644930a3edc51e0274
   common: {
     welcomeMessage: "Karibuni na Invitopia",
     createEvent: "Vanga Likambu",
@@ -25,6 +29,7 @@ const kg = {
     noResults: "Tala te",
     error: "Likambo moko esalemaki malamu te",
     success: "Mosala esalemaki malamu",
+<<<<<<< HEAD
     events: {
       title: "Makambu",
       createEvent: "Vanga likambu",
@@ -250,6 +255,75 @@ const kg = {
       team: "Talá ekipo na biso ya motema.",
       contact: "Kopesa sango mpo na koyeba mingi."
     }
+=======
+    copy: "Kopiya",
+    share: "Kosangisa",
+    filename: "Kombo ya file",
+    format: "Forme",
+    quality: "Bon",
+    low: "Moke",
+    medium: "Moyenge",
+    high: "Monene",
+    image: "Sary",
+    print: "Kopesa",
+    actions: "Misala",
+    undo: "Koboya",
+    redo: "Kosala lisusu",
+    action: "Mosala",
+    currentState: "Etat ya sikoyo",
+    profile: "Nkanda",
+    features: "Makambu",
+    pricing: "Mbongo",
+    manageContacts: "Kobongisa bakonti na yo mpo na kosalisa kosangisa ba invitations",
+    teams: "Makundi",
+    navigation: "Kokende na esika",
+    accept: "Kobongisa",
+    decline: "Koboya",
+    changeLanguage: "Yindula kindombe",
+    selectLanguage: "Kokamata kindombe",
+    theme: "Manzonana",
+    changeTheme: "Yindula manzonana",
+    lightMode: "Ya mvula",
+    darkMode: "Ya butu",
+    systemMode: "Ya système",
+    chooseTheme: "Baka manzonana",
+    online: "Na ligne",
+    offline: "Na hors ligne",
+    available: "Eza",
+    busy: "Mokakatano",
+    away: "Kokende",
+    close: "Kobeta",
+    open: "Kofungola",
+    expand: "Kobakisa",
+    collapse: "Koboya",
+    show: "Kotalisa",
+    hide: "Koboya",
+    enable: "Kobongisa",
+    disable: "Koboya",
+    activate: "Kosala",
+    deactivate: "Koboya",
+    today: "Lelo",
+    yesterday: "Lobi",
+    tomorrow: "Lobi na sima",
+    thisWeek: "Semaine oyo",
+    nextWeek: "Semaine na sima",
+    thisMonth: "Mokolo oyo",
+    nextMonth: "Mokolo na sima",
+    notification: "Zinzengameno",
+    notifications: "Zinzengameno",
+    message: "Mokano",
+    messages: "Mikano",
+    alert: "Kobongisa",
+    warning: "Koboya",
+    info: "Maloba",
+    required: "Esengeli",
+    optional: "Eza na likama te",
+    invalid: "Eza mabe",
+    valid: "Eza malamu",
+    submit: "Kobomba",
+    reset: "Kobongisa lisusu",
+    clear: "Koboya",
+>>>>>>> c00c8f8f156f339d31b6df644930a3edc51e0274
   },
   auth: {
     login: "Kota",
@@ -347,6 +421,7 @@ const kg = {
   navbar: navbarKg,
   settings: settingsKg
 };
+<<<<<<< HEAD
 
 export const commonKg = kg.common;
 
@@ -371,3 +446,5 @@ export const pagesKg = kg.pages;
 export const rolesKg = kg.roles;
 
 export default kg;
+=======
+>>>>>>> c00c8f8f156f339d31b6df644930a3edc51e0274

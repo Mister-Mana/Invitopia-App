@@ -1,11 +1,22 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> c00c8f8f156f339d31b6df644930a3edc51e0274
 import { Resource } from './index';
 import { navbarSw } from './sw/navbar';
 import { settingsSw } from './sw/settings';
 
+<<<<<<< HEAD
 const sw = {
   common: {
     welcomeMessage: "Karibu Invitopia",
     createEvent: "Unda Tukio",
+=======
+export default {
+  common: {
+    welcomeMessage: "Karibu Invitopia",
+    createEvent: "Unda Hafla",
+>>>>>>> c00c8f8f156f339d31b6df644930a3edc51e0274
     dashboard: "Dashibodi",
     account: "Akaunti",
     login: "Ingia",
@@ -16,6 +27,7 @@ const sw = {
     confirm: "Thibitisha",
     delete: "Futa",
     edit: "Hariri",
+<<<<<<< HEAD
     view: "Angalia",
     back: "Rudi nyuma",
     next: "Ifuate",
@@ -69,6 +81,85 @@ const sw = {
     navbar: navbarSw
   },
   commonCore: {},
+=======
+    view: "Ona",
+    back: "Rudi",
+    next: "Ifuatayo",
+    previous: "Iliyotangulia",
+    loading: "Inapakia...",
+    search: "Tafuta...",
+    noResults: "Hakuna matokeo",
+    error: "Hitilafu imetokea",
+    success: "Imefanikiwa",
+    copy: "Nakili",
+    share: "Shiriki",
+    filename: "Jina la faili",
+    format: "Muundo",
+    quality: "Ubora",
+    low: "Chini",
+    medium: "Wastani",
+    high: "Juu",
+    image: "Picha",
+    print: "Chapisha",
+    actions: "Vitendo",
+    undo: "Tengua",
+    redo: "Rudia",
+    action: "Kitendo",
+    currentState: "Hali ya sasa",
+    profile: "Wasifu",
+    features: "Vipengele",
+    pricing: "Bei",
+    manageContacts: "Dhibiti anwani zako ili kusaidia ugawaji wa mialiko",
+    teams: "Timu",
+    navigation: "Urambazaji",
+    accept: "Kubali",
+    decline: "Kataa",
+    changeLanguage: "Badilisha lugha",
+    selectLanguage: "Chagua lugha",
+    theme: "Muonekano",
+    changeTheme: "Badilisha muonekano",
+    lightMode: "Muonekano mwanga",
+    darkMode: "Muonekano wa giza",
+    systemMode: "Muonekano wa mfumo",
+    chooseTheme: "Chagua muonekano",
+    online: "Mtandaoni",
+    offline: "Nje ya mtandao",
+    available: "Inapatikana",
+    busy: "Mshughuli",
+    away: "Mbali",
+    close: "Funga",
+    open: "Fungua",
+    expand: "Panua",
+    collapse: "Kunja",
+    show: "Onyesha",
+    hide: "Ficha",
+    enable: "Wezesha",
+    disable: "Lemaza",
+    activate: "Amilisha",
+    deactivate: "Lemaza",
+    today: "Leo",
+    yesterday: "Jana",
+    tomorrow: "Kesho",
+    thisWeek: "Wiki hii",
+    nextWeek: "Wiki ijayo",
+    thisMonth: "Mwezi huu",
+    nextMonth: "Mwezi ujao",
+    notification: "Arifa",
+    notifications: "Arifa",
+    message: "Ujumbe",
+    messages: "Ujumbe",
+    alert: "Onyo",
+    warning: "Onyo",
+    info: "Maelezo",
+    required: "Inahitajika",
+    optional: "Si lazima",
+    invalid: "Si sahihi",
+    valid: "Sahihi",
+    submit: "Tuma",
+    reset: "Weka upya",
+    clear: "Safisha",
+  },
+>>>>>>> c00c8f8f156f339d31b6df644930a3edc51e0274
   auth: {
     login: "Ingia",
     signup: "Jisajili",
@@ -163,6 +254,7 @@ const sw = {
     systemOverview: "Muhtasari wa mfumo",
   },
   navbar: navbarSw,
+<<<<<<< HEAD
   settings: settingsSw,
   paymentMethod: {
     title: "Malipo",
@@ -219,3 +311,7 @@ export const rsvpSw = sw.rsvp;
 export const statsSw = sw.stats;
 
 export default sw;
+=======
+  settings: settingsSw
+};
+>>>>>>> c00c8f8f156f339d31b6df644930a3edc51e0274

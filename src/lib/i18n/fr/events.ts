@@ -2,10 +2,22 @@
 import { Resource } from '../index';
 
 export const eventsFr: Resource = {
+<<<<<<< HEAD
   createEvent: 'Créer un événement',
   eventDetails: 'Détails de l\'événement',
   eventName: 'Nom de l\'événement',
   eventType: 'Type d\'événement',
+=======
+  title: 'Événements',
+  createEvent: 'Créer un événement',
+  myEvents: 'Mes événements',
+  manageEvents: 'Gérez vos événements',
+  upcomingEvents: 'Événements à venir',
+  pastEvents: 'Événements passés',
+  eventType: 'Type d\'événement',
+  eventDetails: 'Détails de l\'événement',
+  eventName: 'Nom de l\'événement',
+>>>>>>> c00c8f8f156f339d31b6df644930a3edc51e0274
   eventDate: 'Date de l\'événement',
   eventTime: 'Heure de l\'événement',
   eventLocation: 'Lieu de l\'événement',
@@ -23,10 +35,14 @@ export const eventsFr: Resource = {
   publish: 'Publier l\'événement',
   publishReady: 'Votre événement est prêt à être publié',
   eventNameRequired: 'Le nom de l\'événement est requis',
+<<<<<<< HEAD
   manageEvents: 'Créez et gérez vos événements',
   exportCalendar: 'Exporter le calendrier',
   upcomingEvents: 'Événements à venir',
   pastEvents: 'Événements passés',
+=======
+  exportCalendar: 'Exporter le calendrier',
+>>>>>>> c00c8f8f156f339d31b6df644930a3edc51e0274
   draftEvents: 'Brouillons',
   noUpcomingEvents: 'Aucun événement à venir',
   noUpcomingEventsDesc: 'Vous n\'avez aucun événement programmé. Commencez par créer votre premier événement.',

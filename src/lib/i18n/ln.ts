@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Resource } from './';
 import { navbarLn } from './ln/navbar';
 import { settingsLn } from './ln/settings';
@@ -34,6 +35,104 @@ const ln = {
     navbar: {}
   },
   commonCore: {},
+=======
+
+import { Resource } from './index';
+import { navbarLn } from './ln/navbar';
+import { settingsLn } from './ln/settings';
+
+export default {
+  common: {
+    welcomeMessage: "Boyei na Invitopia",
+    createEvent: "Sala feti",
+    dashboard: "Mesa ya mosala",
+    account: "Compte",
+    login: "Kota",
+    signup: "Mikanda",
+    logout: "Kobima",
+    save: "Kobomba",
+    cancel: "Kotika",
+    confirm: "Kondima",
+    delete: "Kolongola",
+    edit: "Kobongisa",
+    view: "Komona",
+    back: "Kozonga",
+    next: "Na sima",
+    previous: "Liboso",
+    loading: "Ezali kozala...",
+    search: "Koluka...",
+    noResults: "Eloko moko te",
+    error: "Likambo esalemaki malamu te",
+    success: "Esalemaki malamu",
+    copy: "Kokopia",
+    share: "Kokabola",
+    filename: "Kombo ya fichier",
+    format: "Lolenge",
+    quality: "Malamu",
+    low: "Moke",
+    medium: "Na kati",
+    high: "Mingi",
+    image: "Elilingi",
+    print: "Kobimisa",
+    actions: "Misala",
+    undo: "Kotika",
+    redo: "Kosala lisusu",
+    action: "Mosala",
+    currentState: "Lolenge ya sikoyo",
+    profile: "Profil",
+    features: "Makambu",
+    pricing: "Ntalo",
+    manageContacts: "Boyangeli ya ba contacts na yo pona kosalisa kokabola ba invitations",
+    teams: "Bituluku",
+    navigation: "Kotambola",
+    accept: "Kondima",
+    decline: "Koboya",
+    changeLanguage: "Changer monoko",
+    selectLanguage: "Pona monoko",
+    theme: "Ndenge",
+    changeTheme: "Changer ndenge",
+    lightMode: "Ya pole",
+    darkMode: "Ya molili",
+    systemMode: "Ya système",
+    chooseTheme: "Pona ndenge",
+    online: "Na ligne",
+    offline: "Na hors ligne",
+    available: "Ezali",
+    busy: "Mosala mingi",
+    away: "Mosika",
+    close: "Kokanga",
+    open: "Kofungola",
+    expand: "Kobakisa",
+    collapse: "Kokitisa",
+    show: "Kolakisa",
+    hide: "Kobomba",
+    enable: "Kopesa nzela",
+    disable: "Kokanga nzela",
+    activate: "Kosala",
+    deactivate: "Kotika",
+    today: "Lelo",
+    yesterday: "Lobi",
+    tomorrow: "Lobi na sima",
+    thisWeek: "Poso oyo",
+    nextWeek: "Poso na sima",
+    thisMonth: "Sanza oyo",
+    nextMonth: "Sanza na sima",
+    notification: "Ba notification",
+    notifications: "Ba notification",
+    message: "Nsango",
+    messages: "Nsango",
+    alert: "Kokebisa",
+    warning: "Kokeba",
+    info: "Nsango",
+    required: "Esengeli",
+    optional: "Ezali na tina te",
+    invalid: "Ezali mabe",
+    valid: "Ezali malamu",
+    submit: "Kotinda",
+    reset: "Kobongola",
+    clear: "Kopetola",
+  },
+>>>>>>> c00c8f8f156f339d31b6df644930a3edc51e0274
   auth: {
     login: "Kota",
     signup: "Mikanda",
@@ -130,6 +229,7 @@ const ln = {
   navbar: navbarLn,
   settings: settingsLn
 };
+<<<<<<< HEAD
 
 // Exports des sections principales
 export const commonLn = ln.common;
@@ -147,3 +247,5 @@ export const teamsLn = ln.teams;
 export const superAdminLn = ln.superAdmin;
 
 export default ln;
+=======
+>>>>>>> c00c8f8f156f339d31b6df644930a3edc51e0274

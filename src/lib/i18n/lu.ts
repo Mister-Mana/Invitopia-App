@@ -1,7 +1,12 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> c00c8f8f156f339d31b6df644930a3edc51e0274
 import { Resource } from './index';
 import { navbarLu } from './lu/navbar';
 import { settingsLu } from './lu/settings';
 
+<<<<<<< HEAD
 const lu = {
   common: {
     welcomeMessage: "Bikwetu ku Invitopia",
@@ -69,6 +74,99 @@ const lu = {
     navbar: navbarLu
   },
   commonCore: {},
+=======
+export default {
+  common: {
+    welcomeMessage: "Tukayakidi ku Invitopia",
+    createEvent: "Vanga lukamba",
+    dashboard: "Mesa ya nsonga",
+    account: "Kompte",
+    login: "Kena mukati",
+    signup: "Andikisha",
+    logout: "Fuma",
+    save: "Bika",
+    cancel: "Mana",
+    confirm: "Kondama",
+    delete: "Cisha",
+    edit: "Shinja",
+    view: "Mona",
+    back: "Vukapo",
+    next: "Wafuatapo",
+    previous: "Watangidipo",
+    loading: "Tshipakamene...",
+    search: "Saka...",
+    noResults: "Nkabu maresultat",
+    error: "Mukinu waumbu",
+    success: "Wafumine bwino",
+    copy: "Kopia",
+    share: "Kabila ne bantu",
+    filename: "Dina dia file",
+    format: "Ndenge",
+    quality: "Mbote",
+    low: "Panshi",
+    medium: "Pa kati",
+    high: "Kungulu",
+    image: "Cifwani",
+    print: "Tobola",
+    actions: "Malu",
+    undo: "Vukapo",
+    redo: "Vanga kavuayi",
+    action: "Malu",
+    currentState: "Mukanda wa bino",
+    profile: "Mulongoloshe",
+    features: "Bilu binene",
+    pricing: "Ntengo",
+    manageContacts: "Longolosa ba contacts bebe pamo ne kuabikila ba invitations",
+    teams: "Makundi",
+    navigation: "Kuya ne kuya",
+    accept: "Kondama",
+    decline: "Mana",
+    changeLanguage: "Shinya lulemi",
+    selectLanguage: "Baka lulemi",
+    theme: "Kamoneka",
+    changeTheme: "Shinya kamoneka",
+    lightMode: "Lumingu",
+    darkMode: "Butubu",
+    systemMode: "Bua système",
+    chooseTheme: "Baka kamoneka",
+    online: "Pa ligne",
+    offline: "Nkabu pa ligne",
+    available: "Mu uko",
+    busy: "Wamushipine",
+    away: "Watala",
+    close: "Pindika",
+    open: "Fungula",
+    expand: "Balula",
+    collapse: "Komina",
+    show: "Tondeka",
+    hide: "Sebeja",
+    enable: "Leka",
+    disable: "Kanga",
+    activate: "Vangisha",
+    deactivate: "Mana",
+    today: "Lelu",
+    yesterday: "Makelela",
+    tomorrow: "Malavu",
+    thisWeek: "Lubingu ulu",
+    nextWeek: "Lubingu lufuatapo",
+    thisMonth: "Mueji uu",
+    nextMonth: "Mueji wafuatapo",
+    notification: "Miambuluiyi",
+    notifications: "Miambuluiyi",
+    message: "Lukanu",
+    messages: "Lukanu",
+    alert: "Kanselela",
+    warning: "Kanselela",
+    info: "Makambu",
+    required: "Wa mukolesha",
+    optional: "Wa panene te",
+    invalid: "Wa mubi",
+    valid: "Wa dibiji",
+    submit: "Tumina",
+    reset: "Vangapo kavuayi",
+    clear: "Pukula",
+  },
+>>>>>>> c00c8f8f156f339d31b6df644930a3edc51e0274
   auth: {
     login: "Kena mukati",
     signup: "Andikisha",
@@ -163,6 +261,7 @@ const lu = {
     systemOverview: "Mamoneka a système",
   },
   navbar: navbarLu,
+<<<<<<< HEAD
   settings: settingsLu,
   rsvp: {
     title: "Mukanda wa dijinga",
@@ -203,3 +302,7 @@ export const statsLu = lu.stats;
 export const settingsLocalLu = lu.settings;
 
 export default lu;
+=======
+  settings: settingsLu
+};
+>>>>>>> c00c8f8f156f339d31b6df644930a3edc51e0274

@@ -16,7 +16,11 @@ export const dashboardFr: Resource = {
   notifications: 'Notifications',
   viewAllNotifications: 'Voir tout',
   noNotifications: 'Pas de nouvelles notifications',
+<<<<<<< HEAD
   createEvent: 'Crée un événement',
+=======
+  createEvent: 'Créer un événement',
+>>>>>>> c00c8f8f156f339d31b6df644930a3edc51e0274
   notificationTypes: {
     newRsvp: 'Nouvelle réponse',
     eventReminder: 'Rappel d\'événement',
@@ -32,5 +36,25 @@ export const dashboardFr: Resource = {
   templates: 'Modèles',
   analytics: 'Analyses',
   settings: 'Paramètres',
+<<<<<<< HEAD
   profile: 'Profil'
+=======
+  profile: 'Profil',
+  sidebar: {
+    dashboard: 'Tableau de bord',
+    createEvent: 'Créer un événement',
+    events: 'Mes événements',
+    contacts: 'Contacts',
+    templates: 'Modèles',
+    settings: 'Paramètres',
+    teams: 'Gestion d\'équipe',
+    mc: 'Maîtres de cérémonie',
+    workflowBuilder: 'Constructeur de workflow',
+    marketing: 'Campagnes marketing',
+    payments: 'Méthodes de paiement',
+    pulse: 'Pulse & Analyses',
+    hooks: 'Webhooks & Intégrations',
+    logout: 'Déconnexion'
+  }
+>>>>>>> c00c8f8f156f339d31b6df644930a3edc51e0274
 };

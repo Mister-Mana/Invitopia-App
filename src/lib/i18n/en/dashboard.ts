@@ -32,5 +32,25 @@ export const dashboardEn: Resource = {
   templates: 'Templates',
   analytics: 'Analytics',
   settings: 'Settings',
+<<<<<<< HEAD
   profile: 'Profile'
+=======
+  profile: 'Profile',
+  sidebar: {
+    dashboard: 'Dashboard',
+    createEvent: 'Create Event',
+    events: 'My Events',
+    contacts: 'Contacts',
+    templates: 'Templates',
+    settings: 'Settings',
+    teams: 'Team Management',
+    mc: 'Master of Ceremonies',
+    workflowBuilder: 'Workflow Builder',
+    marketing: 'Marketing Campaigns',
+    payments: 'Payment Methods',
+    pulse: 'Pulse & Analytics',
+    hooks: 'Webhooks & Integrations',
+    logout: 'Logout'
+  }
+>>>>>>> c00c8f8f156f339d31b6df644930a3edc51e0274
 };
