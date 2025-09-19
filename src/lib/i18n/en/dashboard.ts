@@ -32,9 +32,6 @@ export const dashboardEn: Resource = {
   templates: 'Templates',
   analytics: 'Analytics',
   settings: 'Settings',
-<<<<<<< HEAD
-  profile: 'Profile'
-=======
   profile: 'Profile',
   sidebar: {
     dashboard: 'Dashboard',
@@ -52,5 +49,4 @@ export const dashboardEn: Resource = {
     hooks: 'Webhooks & Integrations',
     logout: 'Logout'
   }
->>>>>>> c00c8f8f156f339d31b6df644930a3edc51e0274
 };

@@ -1,22 +1,12 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> c00c8f8f156f339d31b6df644930a3edc51e0274
 import { Resource } from './index';
 import { navbarSw } from './sw/navbar';
 import { settingsSw } from './sw/settings';
 
-<<<<<<< HEAD
-const sw = {
-  common: {
-    welcomeMessage: "Karibu Invitopia",
-    createEvent: "Unda Tukio",
-=======
 export default {
   common: {
     welcomeMessage: "Karibu Invitopia",
     createEvent: "Unda Hafla",
->>>>>>> c00c8f8f156f339d31b6df644930a3edc51e0274
     dashboard: "Dashibodi",
     account: "Akaunti",
     login: "Ingia",
@@ -27,61 +17,6 @@ export default {
     confirm: "Thibitisha",
     delete: "Futa",
     edit: "Hariri",
-<<<<<<< HEAD
-    view: "Angalia",
-    back: "Rudi nyuma",
-    next: "Ifuate",
-    previous: "Iliyopita",
-    loading: "Inapakia...",
-    search: "Tafuta...",
-    noResults: "Hakuna matokeo",
-    error: "Kuna kosa limetokea",
-    success: "Operesheni imefanikiwa",
-    events: {
-      title: "Matukio",
-      createEvent: "Unda Tukio",
-      editEvent: "Hariri Tukio",
-      deleteEvent: "Futa Tukio",
-      eventDetails: "Maelezo ya Tukio",
-      startDate: "Tarehe ya Kuanza",
-      endDate: "Tarehe ya Mwisho",
-      location: "Mahali",
-      description: "Maelezo",
-      attendees: "Washiriki",
-      totalInvited: "Jumla ya Walioalikwa"
-    },
-    admin: {
-      title: "Msimamizi",
-      userManagement: "Usimamizi wa Watumiaji",
-      systemSettings: "Mipangilio ya Mfumo",
-      paymentSettings: "Mipangilio ya Malipo"
-    },
-    user: {
-      profile: "Wasifu",
-      editProfile: "Hariri Wasifu",
-      changePassword: "Badilisha Nywila",
-      logout: "Toka"
-    },
-    errorMessage: {
-      notFound: "Haipatikani",
-      unauthorized: "Huna Ruhusa",
-      serverError: "Hitilafu ya Seva"
-    },
-    teams: {
-      title: "Timu",
-      createTeam: "Unda Timu",
-      editTeam: "Hariri Timu",
-      deleteTeam: "Futa Timu"
-    },
-    superAdmin: {
-      title: "Msimamizi Mkuu",
-      manageAdmins: "Simamia Wasimamizi",
-      systemOverview: "Muhtasari wa Mfumo"
-    },
-    navbar: navbarSw
-  },
-  commonCore: {},
-=======
     view: "Ona",
     back: "Rudi",
     next: "Ifuatayo",
@@ -159,7 +94,6 @@ export default {
     reset: "Weka upya",
     clear: "Safisha",
   },
->>>>>>> c00c8f8f156f339d31b6df644930a3edc51e0274
   auth: {
     login: "Ingia",
     signup: "Jisajili",
@@ -254,64 +188,5 @@ export default {
     systemOverview: "Muhtasari wa mfumo",
   },
   navbar: navbarSw,
-<<<<<<< HEAD
-  settings: settingsSw,
-  paymentMethod: {
-    title: "Malipo",
-    methods: "Njia za Malipo",
-    subscription: "Usajili",
-    oneTime: "Malipo ya Mara Moja",
-    manualPayment: "Malipo ya Mkono",
-    generateCode: "Tengeneza Msimbo",
-    validatePayment: "Thibitisha Malipo",
-    paymentStatus: "Hali ya Malipo",
-    completed: "Imekamilika",
-    pending: "Inasubiri",
-    failed: "Imeshindwa",
-    currency: "Sarafu",
-    amount: "Kiasi",
-    paymentCode: "Msimbo wa Malipo",
-    enterPaymentCode: "Ingiza Msimbo wa Malipo"
-  },
-  rsvp: {
-    title: "RSVP",
-    attending: "Nitahudhuria",
-    notAttending: "Sitahudhuria",
-    maybe: "Labda",
-    additionalGuests: "Wageni wa Ziada",
-    dietaryRestrictions: "Vizuizi vya Chakula",
-    comments: "Maoni"
-  },
-  stats: {
-    title: "Takwimu",
-    invitationsSent: "Mialiko Iliyotumwa",
-    viewed: "Iliyoonwa",
-    responded: "Waliorithi",
-    attending: "Wanaohudhuria",
-    notAttending: "Wasiohudhuria",
-    pending: "Inasubiri"
-  }
-};
-
-// Exports za sehemu kuu
-export const commonSw = sw.common;
-export const commonCoreSw = sw.commonCore;
-export const authSw = sw.auth;
-export const dashboardSw = sw.dashboard;
-export const eventsSw = sw.events;
-export const contactsSw = sw.contacts;
-export const templatesSw = sw.templates;
-export const adminSw = sw.admin;
-export const userSw = sw.user;
-export const paymentSw = sw.payment;
-export const errorSw = sw.error;
-export const teamsSw = sw.teams;
-export const superAdminSw = sw.superAdmin;
-export const rsvpSw = sw.rsvp;
-export const statsSw = sw.stats;
-
-export default sw;
-=======
   settings: settingsSw
 };
->>>>>>> c00c8f8f156f339d31b6df644930a3edc51e0274

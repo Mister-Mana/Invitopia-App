@@ -1,80 +1,8 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> c00c8f8f156f339d31b6df644930a3edc51e0274
 import { Resource } from './index';
 import { navbarLu } from './lu/navbar';
 import { settingsLu } from './lu/settings';
 
-<<<<<<< HEAD
-const lu = {
-  common: {
-    welcomeMessage: "Bikwetu ku Invitopia",
-    createEvent: "Tungila Tshikondo",
-    dashboard: "Tablo ya buloba",
-    login: "Buela",
-    signup: "Funda",
-    logout: "Patsika",
-    save: "Lama",
-    cancel: "Hita",
-    confirm: "Shindika",
-    delete: "Jima",
-    edit: "Lungulula",
-    view: "Tangila",
-    back: "Alukila",
-    next: "Tshia ku mpala",
-    previous: "Tshia pakunyi",
-    loading: "Kukola...",
-    search: "Kenza...",
-    noResults: "Kakuena bintu",
-    error: "Kudi cilema",
-    success: "Mudimu wenza bimpe",
-    account: "Konti",
-    events: {
-      title: "Bikondo",
-      createEvent: "Tungila tshikondo",
-      editEvent: "Lungulula tshikondo",
-      deleteEvent: "Jima tshikondo",
-      eventDetails: "Meyi a tshikondo",
-      startDate: "Dituku dia kubanga",
-      endDate: "Dituku dia kujika",
-      location: "Muaba",
-      description: "Diumvuija",
-      attendees: "Bantu badi",
-      totalInvited: "Bantu bonso babikila"
-    },
-    admin: {
-      title: "Mulombodi",
-      userManagement: "Dilombola dia bantu",
-      systemSettings: "Malongolodi a cisumbu",
-      paymentSettings: "Malongolodi a mafuta"
-    },
-    user: {
-      profile: "Meyi ebe",
-      editProfile: "Lungulula meyi ebe",
-      changePassword: "Shintulula mukenji",
-      logout: "Patsika"
-    },
-    errorMessage: {
-      notFound: "Kaciena",
-      unauthorized: "Kuena bukenji",
-      serverError: "Cilema mu mashinyi"
-    },
-    teams: {
-      title: "Bisumbu",
-      createTeam: "Tunga cisumbu",
-      editTeam: "Lungulula cisumbu",
-      deleteTeam: "Jima cisumbu"
-    },
-    superAdmin: {
-      title: "Mulombodi Munene",
-      manageAdmins: "Lombola balombodi",
-      systemOverview: "Ntangilu wa cisumbu"
-    },
-    navbar: navbarLu
-  },
-  commonCore: {},
-=======
 export default {
   common: {
     welcomeMessage: "Tukayakidi ku Invitopia",
@@ -166,7 +94,6 @@ export default {
     reset: "Vangapo kavuayi",
     clear: "Pukula",
   },
->>>>>>> c00c8f8f156f339d31b6df644930a3edc51e0274
   auth: {
     login: "Kena mukati",
     signup: "Andikisha",
@@ -261,48 +188,5 @@ export default {
     systemOverview: "Mamoneka a système",
   },
   navbar: navbarLu,
-<<<<<<< HEAD
-  settings: settingsLu,
-  rsvp: {
-    title: "Mukanda wa dijinga",
-    attending: "Nengalua",
-    notAttending: "Tshiena mulua",
-    maybe: "Pamue",
-    additionalGuests: "Bantu bakuabu",
-    dietaryRestrictions: "Bidia bia kupanga",
-    comments: "Meyi makuabu"
-  },
-  stats: {
-    title: "Ntangilu",
-    invitationsSent: "Mikanda mituma",
-    viewed: "Batangila",
-    responded: "Bandamuna",
-    attending: "Balua",
-    notAttending: "Kabayi balua",
-    pending: "Badi bangindila"
-  }
-};
-
-// Exports ya bintu bionso
-export const commonLu = lu.common;
-export const commonCoreLu = lu.commonCore;
-export const authLu = lu.auth;
-export const dashboardLu = lu.dashboard;
-export const eventsLu = lu.events;
-export const contactsLu = lu.contacts;
-export const templatesLu = lu.templates;
-export const adminLu = lu.admin;
-export const userLu = lu.user;
-export const paymentLu = lu.payment;
-export const errorLu = lu.error;
-export const teamsLu = lu.teams;
-export const superAdminLu = lu.superAdmin;
-export const rsvpLu = lu.rsvp;
-export const statsLu = lu.stats;
-export const settingsLocalLu = lu.settings;
-
-export default lu;
-=======
   settings: settingsLu
 };
->>>>>>> c00c8f8f156f339d31b6df644930a3edc51e0274

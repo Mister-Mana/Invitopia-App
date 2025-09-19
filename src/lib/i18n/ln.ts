@@ -1,41 +1,3 @@
-<<<<<<< HEAD
-import { Resource } from './';
-import { navbarLn } from './ln/navbar';
-import { settingsLn } from './ln/settings';
-
-const ln = {
-  common: {
-    welcomeMessage: "Mbote na Invitopia",
-    createEvent: "Kela likambo",
-    dashboard: "Tableau de bord",
-    account: "Compte",
-    login: "Kota",
-    signup: "Inscription",
-    logout: "Kobima",
-    save: "Bomba",
-    cancel: "Annuler",
-    confirm: "Confirmer",
-    delete: "Supprimer",
-    edit: "Modifier",
-    view: "Tala",
-    back: "Zonga",
-    next: "Kende liboso",
-    previous: "Zonga nsima",
-    loading: "Ezali ko charger...",
-    search: "Luka...",
-    noResults: "Eloko moko te",
-    error: "Likambo moko esalemaki malamu te",
-    success: "Mosala esalemaki malamu",
-    events: {},
-    admin: {},
-    user: {},
-    errorMessage: {},
-    teams: {},
-    superAdmin: {},
-    navbar: {}
-  },
-  commonCore: {},
-=======
 
 import { Resource } from './index';
 import { navbarLn } from './ln/navbar';
@@ -132,7 +94,6 @@ export default {
     reset: "Kobongola",
     clear: "Kopetola",
   },
->>>>>>> c00c8f8f156f339d31b6df644930a3edc51e0274
   auth: {
     login: "Kota",
     signup: "Mikanda",
@@ -229,23 +190,3 @@ export default {
   navbar: navbarLn,
   settings: settingsLn
 };
-<<<<<<< HEAD
-
-// Exports des sections principales
-export const commonLn = ln.common;
-export const commonCoreLn = ln.commonCore;
-export const authLn = ln.auth;
-export const dashboardLn = ln.dashboard;
-export const eventsLn = ln.events;
-export const contactsLn = ln.contacts;
-export const templatesLn = ln.templates;
-export const adminLn = ln.admin;
-export const userLn = ln.user;
-export const paymentLn = ln.payment;
-export const errorLn = ln.error;
-export const teamsLn = ln.teams;
-export const superAdminLn = ln.superAdmin;
-
-export default ln;
-=======
->>>>>>> c00c8f8f156f339d31b6df644930a3edc51e0274
