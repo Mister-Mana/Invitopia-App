@@ -186,13 +186,6 @@ export default {
     manageAdmins: "Boyangeli ya ba admins",
     systemOverview: "Botali ya système",
   },
-  navbar: {
-    language: "Monoko",
-    theme: "Ndenge",
-    login: "Kota",
-    logout: "Kobima",
-    dashboard: "Mesa ya mosala"
-  },
   errorMessage: {
     notFound: "Emonani te",
     unauthorized: "Ozali na ndingisa te",
