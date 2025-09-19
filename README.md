@@ -1,6 +1,10 @@
 # Invitopia
 
+<<<<<<< HEAD
 ![Invitopia Logo](invitopia.lovable.app)
+=======
+![Invitopia Logo](invitopia.vercel.app)
+>>>>>>> 4dc73ac5cebfe7198ab4e5c5af93010d3d809609
 
 ## La plateforme de gestion d'événements conçue pour l'Afrique
 
