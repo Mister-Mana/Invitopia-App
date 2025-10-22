@@ -1,0 +1,77 @@
+
+import { Resource } from '../index';
+
+export const dashboardEn: Resource = {
+  title: 'Dashboard',
+  subtitle: 'Manage your events and invitations',
+  welcome: 'Welcome back',
+  summary: 'Here\'s a summary of your events',
+  noEvent: 'No events yet',
+  recentActivity: 'Recent Activity',
+  newEvent: 'New Event',
+  upcomingEvents: 'Upcoming Events',
+  recentEvents: 'Recent Events',
+  pendingTasks: 'Pending Tasks',
+  statistics: 'Statistics',
+  guests: 'Guests',
+  confirmedGuests: 'Confirmed',
+  pendingGuests: 'Pending',
+  cancelledGuests: 'Declined',
+  totalGuests: 'Total',
+  notifications: 'Notifications',
+  viewAllNotifications: 'View All',
+  noNotifications: 'No new notifications',
+  createEvent: 'Create Event',
+  notificationTypes: {
+    newRsvp: 'New RSVP',
+    eventReminder: 'Event Reminder',
+    systemUpdate: 'System Update',
+    paymentReceived: 'Payment Received'
+  },
+  pastEvents: 'Past Events',
+  viewEvent: 'View Event',
+  editEvent: 'Edit Event',
+  home: 'Home',
+  events: 'Events',
+  contacts: 'Contacts',
+  templates: 'Templates',
+  analytics: 'Analytics',
+  settings: 'Settings',
+  profile: 'Profile',
+  sidebar: {
+    dashboard: 'Dashboard',
+    createEvent: 'Create Event',
+    events: 'My Events',
+    contacts: 'Contacts',
+    templates: 'Templates',
+    settings: 'Settings',
+    teams: 'Team Management',
+    mc: 'Master of Ceremonies',
+    workflowBuilder: 'Workflow Builder',
+    marketing: 'Marketing Campaigns',
+    payments: 'Payment Methods',
+    pulse: 'Pulse & Analytics',
+    hooks: 'Webhooks & Integrations',
+    logout: 'Logout',
+    invitations: 'Invitations',
+    billing: 'Billing',
+    analytics: 'Analytics',
+    profile: 'Profile',
+    help: 'Help & Support'
+  },
+  activity: {
+    recent: 'Recent Activity',
+    viewAll: 'View All',
+    noActivity: 'No recent activity'
+  },
+  eventsList: {
+    search: 'Search events...',
+    searchPlaceholder: 'Search by title, description, or type',
+    noResults: 'No events found',
+    createFirst: 'Create your first event',
+    drafts: 'Drafts',
+    viewDrafts: 'View drafts',
+    published: 'Published',
+    all: 'All events'
+  }
+};
